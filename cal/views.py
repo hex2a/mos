@@ -46,7 +46,6 @@ class EventCalendar(HTMLCalendar):
                 body.append('</li>')
             body.append('</ul>')
             return self.day_cell(cssclass, '%d %s' % (day, (''.join(body))))
-            return self.day_cell(cssclass, day)
         return self.day_cell('noday', '&nbsp;')
 
     def formatmonth(self, year, month, withyear=False):

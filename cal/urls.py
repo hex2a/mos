@@ -1,6 +1,6 @@
 from __future__ import absolute_import
 
-from django.conf.urls import *
+from django.conf.urls import patterns
 from django.views.generic.dates import YearArchiveView
 from django.views.generic.detail import DetailView
 
